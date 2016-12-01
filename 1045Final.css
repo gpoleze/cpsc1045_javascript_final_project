@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+/*    color: #093A59;*/
+    font-family: sans-serif;
+/*    background-color: #B5E1FD;*/
+}
+
+#wrapper{
+    background-color: #D5EDFC;
+    width:95%;
+    border: 5px sold blue;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+#starsDiv {
+    width: 270px;
+    margin: 0 auto;
+}
+.score {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-image: url(stars.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;   
+}
+#numbers {
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    font-size: 2em;
+    list-style: none;
+}
+.numberBoxDiv{
+    width: 40px;
+    margin:0 5px;
+    text-align: center;
+    border: 1px solid #093A59;
+    border-radius: 5px;
+}
+.numbersDiv{
+    width:255px;
+    margin: 0 auto;
+}
+#question{
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+.buttonBox{
+    text-align: center;
+}
+.button{
+/*    */
+    text-align: center;
+    background-color: #D5EDFC;
+    color: #093A59;
+    border: 1px solid #093A59;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1.0em;
+    
+}
+#messages{
+    height: 100px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 5px;
+}
+footer {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: .8em;
+    text-align: center;
+}
